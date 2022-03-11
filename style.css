@@ -331,6 +331,9 @@ i{
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   
+    body{
+        touch-action: manipulation;
+    }
     
 header{
     height: 10vh;
